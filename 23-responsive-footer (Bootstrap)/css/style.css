@@ -1,0 +1,65 @@
+:root {
+  --body-background-color: #111;
+  --title-text-color: #eee;
+  --links-color: #aaa;
+  --border-color: #666;
+  --title-bottom-border-color: linear-gradient(90deg, #b873ce, #ffdd40);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: var(--body-background-color);
+}
+img {
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+footer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 20px 40px;
+  border-top: 3px solid var(--border-color);
+}
+.title {
+  color: var(--title-text-color);
+}
+.title::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  transform: translateY(10px);
+  width: 200%;
+  height: 5px;
+  border-radius: 5px 0 5px 0;
+  background: var(--title-bottom-border-color);
+}
+footer ul {
+  list-style: none;
+  transform: translate(-34px, 10px);
+}
+footer ul li {
+  margin: 10px 0;
+  padding: 4px;
+  border-radius: 5px;
+  color: var(--links-color);
+}
+footer ul li a {
+  color: var(--links-color);
+}
+.links {
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.links:hover {
+  background: var(--title-bottom-border-color);
+}
+.links:hover a {
+  color: var(--body-background-color);
+}

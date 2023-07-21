@@ -1,0 +1,77 @@
+:root {
+  --body-background-color: #000;
+  --text-color: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-background-color);
+}
+img {
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+.glitch-container {
+  font-size: 100px;
+}
+.glitch {
+  color: var(--text-color);
+  animation: glitch 1s infinite linear;
+}
+.glitch::before,
+.glitch::after {
+  position: absolute;
+  content: attr(title);
+  left: 0;
+}
+.glitch::before {
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  animation: glitch-top 1s infinite linear;
+}
+.glitch::after {
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  animation: glitch-bottom 1.5s infinite linear;
+}
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translateX(2px) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translateX(-2px) skew(0deg);
+  }
+  62% {
+    transform: translateX(0) skew(5deg);
+  }
+}
+@keyframes glitch-top {
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+@keyframes glitch-bottom {
+  2%,
+  64% {
+    transform: translateX(-2px);
+  }
+  4%,
+  60% {
+    transform: translateX(-2px);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
+}
