@@ -1,0 +1,50 @@
+:root {
+  --body-background-color: #000;
+  --button-background-color: linear-gradient(
+    180deg,
+    rgba(104, 63, 234, 1) 71%,
+    rgba(164, 124, 243, 1)
+  );
+  --text-color: #fff;
+  --top-inset-shadow: rgba(255, 255, 255, 0.4);
+  --bottom-inset-shadow: rgba(0, 0, 0, 0.2);
+  --box-shadow: rgba(255, 255, 255, 0.07);
+  --active-button-drop-shadow: #db3eb1;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-background-color);
+}
+img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 30px;
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  color: var(--text-color);
+  background: var(--button-background-color);
+  box-shadow: inset 0px 1px 0 var(--top-inset-shadow),
+    inset 0px -4px 0 var(--bottom-inset-shadow),
+    0px 0px 0px 4px var(--box-shadow);
+  transition: 0.3s all;
+  cursor: pointer;
+}
+button:hover {
+  filter: drop-shadow(0 0 15px var(--active-button-drop-shadow))
+    drop-shadow(0 0 50px var(--active-button-drop-shadow)) contrast(2)
+    brightness(2);
+}

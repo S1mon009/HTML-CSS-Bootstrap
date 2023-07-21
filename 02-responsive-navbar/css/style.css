@@ -1,0 +1,143 @@
+:root {
+  --body-background-linear-color: linear-gradient(to top left, #39b385, #9be15d)
+    fixed;
+  --navbar-background-color: #444;
+  --active-navbar-background-color: #666;
+  --active-navbar-hover-background-color: #777;
+  --text-color: #eee;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-background-linear-color);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 20px;
+  color: var(--text-color);
+  background: var(--navbar-background-color);
+  box-shadow: 10px 10px 20px rgba(3, 3, 3, 0.3);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo-container img {
+  height: 50%;
+  margin-right: 20px;
+}
+.logo-container h2 {
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+  display: flex;
+  column-gap: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+ul li::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  height: 4px;
+  transform: translateY(5px);
+  border-radius: 4px 0 4px 0;
+  background: var(--body-background-linear-color);
+  transition: 0.3s all;
+}
+ul li:hover::before {
+  width: 100%;
+}
+#checkbox {
+  display: none;
+  position: absolute;
+  right: 100px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+}
+span {
+  display: none;
+  position: absolute;
+  right: 20px;
+  width: 40px;
+  height: 5px;
+  background: var(--text-color);
+}
+span::before,
+span::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--text-color);
+}
+span::before {
+  transform: translateY(-10px);
+}
+span::after {
+  transform: translateY(10px);
+}
+#checkbox:checked ~ span {
+  transform: rotate(45deg);
+}
+#checkbox:checked ~ span::before {
+  transform: translateY(0px);
+}
+#checkbox:checked ~ span::after {
+  transform: translateY(0) rotate(-90deg);
+}
+@media (max-width: 800px) {
+  .logo-container h2 {
+    display: none;
+  }
+  #checkbox,
+  span {
+    position: absolute;
+    right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  #checkbox {
+    z-index: 2;
+  }
+  ul {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: block;
+    width: 100%;
+    transform: translateY(-100%);
+    transition: 0.3s all;
+    z-index: -1;
+  }
+  ul li {
+    width: 100%;
+    padding: 20px;
+    background: var(--active-navbar-background-color);
+    transition: 0.3s all;
+  }
+  ul li:hover {
+    background: var(--active-navbar-hover-background-color);
+  }
+  #checkbox:checked ~ ul {
+    transform: translateY(0);
+  }
+}

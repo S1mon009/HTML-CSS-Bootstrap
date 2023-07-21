@@ -1,0 +1,94 @@
+:root {
+  --body-background-color: #000;
+  --text-color: #fefefe;
+  --button-background-color: #333;
+  --wave-background-color--1: #0073dd;
+  --wave-background-color--2: #004687;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-background-color);
+}
+img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 25px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: var(--text-color);
+  background: var(--button-background-color);
+  overflow: hidden;
+  cursor: pointer;
+}
+button::before,
+button::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.3s all;
+}
+button::before {
+  height: 90%;
+  transform: translateY(10%);
+  background: var(--wave-background-color--1);
+  animation: 2s animate linear infinite;
+  z-index: -1;
+}
+button::after {
+  height: 110%;
+  transform: translateY(-10%);
+  background: var(--wave-background-color--2);
+  animation: 3s animate linear infinite;
+  z-index: -2;
+}
+button:hover::before,
+button:hover::after {
+  height: 170px;
+  transform: translateY(-65%);
+}
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}

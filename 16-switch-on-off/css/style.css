@@ -1,0 +1,123 @@
+:root {
+  --body-background-color: #000;
+  --off-button-background-color: #ff0000;
+  --on-button-background-color: #00dd00;
+  --text-color: #fff;
+  --border-color: #444;
+  --span-box-shadow: rgba(0, 0, 0, 0.4);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-background-color);
+}
+img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+.switch-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 80px;
+  padding: 0 5px;
+  border-radius: 40px;
+  border: 6px solid var(--border-color);
+  font-size: 60px;
+  font-family: "Roboto";
+  font-weight: 600;
+  transition: 0.3s all;
+}
+.switch-container input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 80px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.switch-container .background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background: var(--off-button-background-color);
+  box-shadow: inset 0 0 30px var(--span-box-shadow);
+  transition: 0.3s all;
+  z-index: -1;
+}
+.switch-container .background::before {
+  position: absolute;
+  content: "FF";
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  letter-spacing: 10px;
+  color: var(--text-color);
+  transition: 0.3s all;
+}
+.switch-container .background::after {
+  position: absolute;
+  content: "N";
+  top: 50%;
+  right: 0;
+  transform: translate(65px, -50%);
+  letter-spacing: 10px;
+  opacity: 0;
+  color: var(--text-color);
+  transition: 0.3s all;
+}
+.switch-container .ball {
+  position: relative;
+  display: block;
+  width: 60px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: var(--text-color);
+  box-shadow: 0 0 20px var(--span-box-shadow),
+    inset 5px 5px 20px var(--span-box-shadow);
+  transition: 0.3s all;
+  z-index: 0;
+}
+.switch-container .ball::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 6px solid var(--off-button-background-color);
+  transition: 0.3s all;
+}
+input:checked ~ .ball {
+  transform: translateX(100px);
+}
+input:checked ~ .background {
+  background: var(--on-button-background-color);
+}
+input:checked ~ .background::before {
+  display: none;
+}
+input:checked ~ .background::after {
+  opacity: 1;
+}
+input:checked ~ .ball::before {
+  border: 6px solid var(--on-button-background-color);
+}

@@ -1,0 +1,60 @@
+:root {
+  --body-background-color: #000;
+  --switch-button-background-color: #333;
+  --active-switch-button-background-color: #0073dd;
+  --ball-background-color: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.position-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+  background: var(--body-background-color);
+}
+img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+input {
+  width: 100px;
+  height: 40px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+span {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background: var(--switch-button-background-color);
+  transition: 0.3s all;
+}
+span::before {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  content: "";
+  transform: translateY(-50%);
+  width: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: var(--ball-background-color);
+  transition: 0.3s all;
+}
+input:checked ~ span::before {
+  transform: translateY(-50%);
+  left: calc(100% - 35px);
+}
+input:checked ~ span {
+  background: var(--active-switch-button-background-color);
+}

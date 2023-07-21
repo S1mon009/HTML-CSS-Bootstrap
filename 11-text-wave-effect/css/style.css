@@ -1,0 +1,66 @@
+:root {
+  --body-background-color: #000;
+  --wave-background-color: #0073dd;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-background-color);
+  overflow: hidden;
+}
+img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+.text-container {
+  position: relative;
+  top: 300px;
+  left: 450px;
+}
+h2 {
+  position: absolute;
+  font-size: 8rem;
+  letter-spacing: 5px;
+}
+.text-container h2:first-child {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--wave-background-color);
+}
+.text-container h2:last-child {
+  color: var(--wave-background-color);
+  animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}

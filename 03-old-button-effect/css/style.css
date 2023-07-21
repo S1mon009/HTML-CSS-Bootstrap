@@ -1,0 +1,61 @@
+:root {
+  --background-color: #fff;
+  --border-color: #000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 600;
+  outline: none;
+  border: 2px solid var(--border-color);
+  background: var(--background-color);
+  transition: 0.3s all;
+}
+button::before,
+button::after {
+  position: absolute;
+  content: "";
+  background: var(--border-color);
+  transition: 0.3s all;
+}
+button::before {
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: calc(100% + 4px);
+  transform: translate(7px, 1px) skewY(45deg);
+}
+button::after {
+  bottom: 0;
+  left: 0;
+  width: calc(100% + 3px);
+  height: 6px;
+  transform: translate(1px, 8px) skewX(45deg);
+}
+
+button:active {
+  transform: translate(calc(-50% + 6px), calc(-50% + 6px));
+}
+button:active::before {
+  width: 0px;
+  right: 6px;
+}
+button:active::after {
+  height: 0px;
+  bottom: 6px;
+}
