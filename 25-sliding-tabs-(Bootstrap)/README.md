@@ -26,6 +26,6 @@ Let's make it easy! Just download this template, use it on your project.
 
 # Changelogs
 
-July 26, 2023
+July 28, 2023
 
 - Initial release
