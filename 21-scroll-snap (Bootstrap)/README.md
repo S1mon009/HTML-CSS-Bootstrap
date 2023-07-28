@@ -5,7 +5,7 @@
 
 My Scroll Snap was created using Bootstrap 5, you can use it as you wish and it's free for personal or commercial use.
 
-![21-scroll-snap-(Bootstrap)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/5854f696-6c49-485f-8725-e80816bc6dc2)
+![21-scroll-snap-(Bootstrap)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/852b0df0-4768-4bb0-8e06-e3aa67e624f5)
 
 # Instalation
 
