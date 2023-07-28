@@ -5,7 +5,7 @@
 
 My Sidebar was created using Bootstrap 5, you can use it as you wish and it's free for personal or commercial use.
 
-![22-sidebar-(Bootstrap)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/19dc46d5-f256-4567-9ffb-f3f13f76b489)
+![22-sidebar-(Bootstrap)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/5ce34197-0699-452a-ac68-bf5b83f223ff)
 
 # Instalation
 
