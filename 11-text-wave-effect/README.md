@@ -5,7 +5,7 @@
 
 My Text Animation was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![11-text-wave-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/d68fc49e-b98c-47f6-9d6c-84b83e397c78)
+![11-text-wave-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/03503e6f-753d-4e70-9252-5cb1b3c275b8)
 
 # Instalation
 
