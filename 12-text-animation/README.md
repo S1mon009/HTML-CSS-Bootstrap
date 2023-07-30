@@ -5,7 +5,7 @@
 
 My Text Animation was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![12-text-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/7435d3e0-50f1-4742-8766-97817725d06d)
+![12-text-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/1c80289e-ba1c-4af9-bfe7-961f46b1f074)
 
 # Instalation
 
