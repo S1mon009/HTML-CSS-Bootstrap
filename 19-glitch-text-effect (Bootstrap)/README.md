@@ -5,7 +5,7 @@
 
 My Glitch Text Effect was created using Bootstrap 5, you can use it as you wish and it's free for personal or commercial use.
 
-![glitch-text-effect](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/a5fe4b4e-e08e-4319-9700-6761710aa0eb)
+![19-glitch-text-effect-(Bootstrap)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/df75e2a3-13ba-4889-8771-cb83e02cc413)
 
 # Instalation
 
