@@ -4,7 +4,7 @@
  
 My Loading Animation was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![06-loading-animation-with-counter](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/633fd159-4030-4c23-946f-526f293cab69)
+![06-loading-animation-with-counter](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/405449eb-0001-4497-bff1-d4af90417ae4)
 
 # Instalation
 Let's make it easy! Just download this template, use it on your project.
