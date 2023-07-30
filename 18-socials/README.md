@@ -5,7 +5,7 @@
 
 My Socials Icons was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![18-socials (1)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/f380d9e2-eabb-40ec-b056-f40944a5bf96)
+![18-socials](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/1522334c-b184-445b-8c4b-b77c5db6aca4)
 
 # Instalation
 
