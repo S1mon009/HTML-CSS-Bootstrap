@@ -5,7 +5,7 @@
 
 My Button Effect was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![Projekt bez nazwy](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/751a08db-3cfc-41ba-9203-96ee181812de)
+![13-button-border-effect](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/6c81b81a-5f4f-4cab-a71e-684b6b1f2847)
 
 # Instalation
 
