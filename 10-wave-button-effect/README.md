@@ -5,7 +5,7 @@
 
 My Wave Button was created using HTML nad CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![10-wave-button-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/b0809d74-a0a3-44c9-bddf-de196224a9be)
+![10-wave-button-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/adf0b42d-1044-48d2-aa70-a55b6296c619)
 
 # Instalation
 
