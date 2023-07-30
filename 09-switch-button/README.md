@@ -5,7 +5,7 @@
 
 My Switch Button was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![Projekt bez nazwy](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/6962bc37-75dd-4e73-a804-6d1c9fe170a8)
+![09-switch-button](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/671645c0-7b76-40af-90e0-858e958555a0)
 
 # Instalation
 
