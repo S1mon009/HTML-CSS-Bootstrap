@@ -5,7 +5,7 @@
 
 My Flip Card was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![08-flip-card](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/591e66fe-c2eb-4c35-9ef1-8d8fcb757841)
+![08-flip-card](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/29f8f5af-54c4-46d7-90c9-29db72b9ba29)
 
 # Instalation
 
