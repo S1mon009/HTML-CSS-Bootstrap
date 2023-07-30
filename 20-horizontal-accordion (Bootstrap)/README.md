@@ -4,7 +4,7 @@
 
 My Horizontal Accordion was created using Bootstrap 5, you can use it as you wish and it's free for personal or commercial use.
 
-![20-horizontal-accordion-(Bootstrap)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/01bc0d1f-76d0-4d45-ad5d-d6de4db81681)
+![20-horizontal-accordion-(Bootstrap)](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/543a23f2-8ae3-4ad5-a463-f0b95e3fe4b9)
 
 # Instalation
 Let's make it easy! Just download this template, use it on your project.
