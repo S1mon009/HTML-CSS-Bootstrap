@@ -4,7 +4,7 @@
 
 My Input Animation was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![07-input-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/0594f56c-e12e-425b-a076-574b37e36f2d)
+![07-input-animation](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/e5c64f3e-fac9-4c13-b31c-2a08c62ac53a)
 
 # Instalation
 Let's make it easy! Just download this template, use it on your project.
