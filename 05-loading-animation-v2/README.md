@@ -5,7 +5,7 @@
 
 My Loading Animation was created using HTML and CSS, you can use it as you wish and it's free for personal or commercial use.
 
-![Projekt bez nazwy](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/b952539e-cc2b-4649-bab2-111003035060)
+![05-loading-animation-v2](https://github.com/S1mon009/HTML-CSS-Bootstrap/assets/105738321/e8850516-1902-4a27-81fe-71b1897da4b1)
 
 # Instalation
 Let's make it easy! Just download this template, use it on your project.
