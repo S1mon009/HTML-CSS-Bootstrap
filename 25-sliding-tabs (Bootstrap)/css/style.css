@@ -1,0 +1,70 @@
+:root {
+  --body-background-color: #000;
+  --slider-background-color: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.transition-03s {
+  transition: 0.3s all;
+}
+body {
+  background: var(--body-background-color);
+}
+img {
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+.tabs {
+  padding: 20px;
+  border-radius: 60px;
+  background: var(--slider-background-color);
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs label {
+  width: 150px;
+  height: 54px;
+  cursor: pointer;
+}
+.tabs label,
+.tabs input[type="radio"] {
+  color: var(--body-background-color);
+  z-index: 2;
+}
+.tabs input[type="radio"]:checked + label {
+  color: var(--slider-background-color);
+}
+.tabs span {
+  width: 150px;
+  height: 54px;
+  border-radius: 30px;
+  background: var(--body-background-color);
+  z-index: 1;
+}
+.tabs input[id="radio-1"]:checked ~ span {
+  transform: translateX(0);
+}
+.tabs input[id="radio-2"]:checked ~ span {
+  transform: translateX(100%);
+}
+.tabs input[id="radio-3"]:checked ~ span {
+  transform: translateX(200%);
+}
+@media (max-width: 500px) {
+  .tabs {
+    padding: 10px;
+  }
+  .tabs label {
+    width: 100px;
+    height: 30px;
+  }
+  .tabs span {
+    width: 100px;
+    height: 30px;
+  }
+}
