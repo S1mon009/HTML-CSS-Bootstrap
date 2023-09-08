@@ -28,7 +28,7 @@
 
 ###
 # 🔗Live Demo
-- [01-hamburger-icon](https://katherineoelsner.com/)
+- [01-hamburger-icon](https://01-hamburger-icon.netlify.app)
 - [02-responsive-navbar](https://02-responsive-navbar.netlify.app)
 - [03-old-button-effect](https://03-old-button-effect.netlify.app)
 - [04-loading-animation-v1](https://04-loading-animation-v1.netlify.app)
