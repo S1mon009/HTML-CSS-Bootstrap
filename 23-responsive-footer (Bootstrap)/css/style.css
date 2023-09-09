@@ -14,6 +14,13 @@
 body {
   background: var(--body-background-color);
 }
+header {
+  height: 70px;
+}
+header img {
+  width: 50px;
+  margin: 20px 0 0 20px;
+}
 footer {
   display: grid;
   grid-gap: 20px;
@@ -57,4 +64,10 @@ footer ul li a {
 }
 .links:hover a {
   color: var(--body-background-color);
+}
+@media (max-width: 500px) {
+  header img {
+    margin: 20px 20px 0 0;
+    float: right;
+  }
 }
