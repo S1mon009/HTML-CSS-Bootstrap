@@ -14,11 +14,6 @@
 body {
   background: var(--body-background-color);
 }
-img {
-  top: 20px;
-  left: 20px;
-  width: 50px;
-}
 footer {
   display: grid;
   grid-gap: 20px;
