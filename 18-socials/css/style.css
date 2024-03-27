@@ -22,9 +22,9 @@
 }
 img {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 .socials-container {
   position: absolute;
@@ -34,26 +34,26 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 100px;
+  gap: 6.25rem;
   flex-wrap: wrap;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--border-color);
 }
 .socials-container span {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90px;
+  width: 5.625rem;
   aspect-ratio: 1/1;
-  padding: 20px;
-  border: 3px solid var(--border-color);
+  padding: 1.25rem;
+  border: 0.1875rem solid var(--border-color);
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s all ease-in-out;
-  box-shadow: inset 0px 0px 0 5px#fff;
+  box-shadow: inset 0rem 0rem 0 0.3125rem#fff;
 }
 .socials-container span:hover {
-  border: 3px solid var(--active-border-color);
+  border: 0.1875rem solid var(--active-border-color);
   color: var(--active-text-color);
 }
 .socials-container span:nth-child(1):hover {

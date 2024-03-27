@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 .border-rdius-40 {
-  border-radius: 40px;
+  border-radius: 2.5rem;
 }
 .transition-03s {
   transition: 0.3s all;
@@ -19,49 +19,49 @@ body {
 }
 img {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 .input-container {
   width: auto;
-  height: 80px;
-  border-radius: 40px;
-  outline-offset: 5px;
-  outline: 5px solid var(--outline-color);
+  height: 5rem;
+  border-radius: 2.5rem;
+  outline-offset: 0.3125rem;
+  outline: 0.3125rem solid var(--outline-color);
 }
 .input-container::before {
   position: absolute;
   bottom: 0;
   right: 0;
   content: "";
-  width: 5px;
-  height: 50px;
+  width: 0.3125rem;
+  height: 3.125rem;
   transform: translateY(95%) rotate(-30deg);
   background: var(--outline-color);
 }
 .input-container span {
   display: block;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2.5rem;
   background: var(--input-container-background-color);
   z-index: -1;
 }
 .input-container input {
-  width: calc(100% - 30px);
+  width: calc(100% - 1.875rem);
   height: 70%;
-  border-radius: 40px;
-  padding: 0 5px;
+  border-radius: 2.5rem;
+  padding: 0 0.3125rem;
   border: none;
   outline: none;
   background: none;
 }
 input:focus + span {
-  width: 400px;
+  width: 25rem;
 }
-@media (max-width: 450px) {
+@media (max-width: 28.125rem) {
   input:focus + span {
-    width: 200px;
+    width: 12.5rem;
   }
 }

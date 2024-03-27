@@ -8,14 +8,14 @@
   box-sizing: border-box;
 }
 img {
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 .accordion-item {
   flex: 1;
-  width: 100px;
-  box-shadow: inset 5px -5px 10px var(--box-inset-shadow);
+  width: 6.25rem;
+  box-shadow: inset 0.3125rem -0.3125rem 0.625rem var(--box-inset-shadow);
   transition: 0.3s all;
   cursor: pointer;
 }
@@ -52,7 +52,7 @@ img {
   background-attachment: fixed;
 }
 .accordion-item:hover {
-  width: 300px;
+  width: 18.75rem;
   flex: 7;
 }
 .accordion-item:hover > span {

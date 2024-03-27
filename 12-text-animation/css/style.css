@@ -14,9 +14,9 @@ body {
 }
 img {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 .container {
   position: absolute;
@@ -25,14 +25,14 @@ img {
   transform: translate(-50%, -50%);
 }
 h2 {
-  font-size: 3rem;
+  font-size: 48px;
   color: var(--first-text-color);
 }
 .animation-container {
   position: relative;
   display: inline-block;
-  height: 50px;
-  transform: translateY(-3px);
+  height: 3.125rem;
+  transform: translateY(-0.1875rem);
   vertical-align: bottom;
   overflow: hidden;
   color: var(--second-text-color);

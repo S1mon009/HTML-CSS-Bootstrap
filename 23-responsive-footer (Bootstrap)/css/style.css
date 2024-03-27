@@ -15,18 +15,18 @@ body {
   background: var(--body-background-color);
 }
 header {
-  height: 70px;
+  height: 4.375rem;
 }
 header img {
-  width: 50px;
-  margin: 20px 0 0 20px;
+  width: 3.125rem;
+  margin: 1.25rem 0 0 1.25rem;
 }
 footer {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding: 20px 40px;
-  border-top: 3px solid var(--border-color);
+  grid-gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  padding: 1.25rem 2.5rem;
+  border-top: 0.1875rem solid var(--border-color);
 }
 .title {
   color: var(--title-text-color);
@@ -36,20 +36,20 @@ footer {
   left: 0;
   bottom: 0;
   content: "";
-  transform: translateY(10px);
+  transform: translateY(0.625rem);
   width: 200%;
-  height: 5px;
-  border-radius: 5px 0 5px 0;
+  height: 0.3125rem;
+  border-radius: 0.3125rem 0 0.3125rem 0;
   background: var(--title-bottom-border-color);
 }
 footer ul {
   list-style: none;
-  transform: translate(-34px, 10px);
+  transform: translate(-2.125rem, 0.625rem);
 }
 footer ul li {
-  margin: 10px 0;
-  padding: 4px;
-  border-radius: 5px;
+  margin: 0.625rem 0;
+  padding: 0.25rem;
+  border-radius: 0.3125rem;
   color: var(--links-color);
 }
 footer ul li a {
@@ -65,9 +65,9 @@ footer ul li a {
 .links:hover a {
   color: var(--body-background-color);
 }
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {
   header img {
-    margin: 20px 20px 0 0;
+    margin: 1.25rem 1.25rem 0 0;
     float: right;
   }
 }

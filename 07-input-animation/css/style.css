@@ -10,9 +10,9 @@
 }
 img {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 .input-container {
   position: absolute;
@@ -21,30 +21,30 @@ img {
   transform: translate(-50%, -50%);
 }
 input {
-  width: 200px;
-  height: 40px;
-  padding-left: 15px;
-  border: 2px solid var(--border-input-color);
-  border-radius: 5px;
+  width: 12.5rem;
+  height: 2.5rem;
+  padding-left: 0.9375rem;
+  border: 0.125rem solid var(--border-input-color);
+  border-radius: 0.3125rem;
   outline: none;
   transition: 0.3s all;
 }
 label {
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: 0.625rem;
   transform: translateY(-50%);
-  padding: 0 2px;
+  padding: 0 0.125rem;
   color: var(--border-input-color);
   transition: 0.3s all;
 }
 input:is(:focus, :valid) {
-  border: 2px solid var(--active-input-color);
+  border: 0.125rem solid var(--active-input-color);
 }
 input:is(:focus, :valid) ~ label {
   top: 0;
   left: 0;
-  transform: translateY(-10px) scale(0.7);
+  transform: translateY(-0.625rem) scale(0.7);
   background: #fff;
   color: var(--active-input-color);
 }

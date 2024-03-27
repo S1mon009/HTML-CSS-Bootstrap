@@ -20,32 +20,32 @@ body {
 }
 img {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 input {
-  width: 100px;
-  height: 40px;
+  width: 6.25rem;
+  height: 2.5rem;
   opacity: 0;
   cursor: pointer;
   z-index: 1;
 }
 span {
   display: inline-block;
-  width: 80px;
-  height: 40px;
-  border-radius: 20px;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
   background: var(--switch-button-background-color);
   transition: 0.3s all;
 }
 span::before {
   position: absolute;
   top: 50%;
-  left: 5px;
+  left: 0.3125rem;
   content: "";
   transform: translateY(-50%);
-  width: 30px;
+  width: 1.875rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
   background: var(--ball-background-color);
@@ -53,7 +53,7 @@ span::before {
 }
 input:checked ~ span::before {
   transform: translateY(-50%);
-  left: calc(100% - 35px);
+  left: calc(100% - 2.1875rem);
 }
 input:checked ~ span {
   background: var(--active-switch-button-background-color);

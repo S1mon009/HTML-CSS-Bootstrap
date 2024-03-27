@@ -15,21 +15,21 @@ body {
 }
 img {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 button {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 15px 25px;
-  font-size: 25px;
+  padding: 0.9375rem 1.5625rem;
+  font-size: 1.5625rem;
   font-weight: 600;
   border: none;
   outline: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   color: var(--text-color);
   background: var(--button-background-color);
   overflow: hidden;
@@ -60,7 +60,7 @@ button::after {
 }
 button:hover::before,
 button:hover::after {
-  height: 170px;
+  height: 10.625rem;
   transform: translateY(-65%);
 }
 @keyframes animate {

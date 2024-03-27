@@ -14,21 +14,21 @@ body {
   background: var(--body-background-color);
 }
 img {
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 .tabs {
-  padding: 20px;
-  border-radius: 60px;
+  padding: 1.25rem;
+  border-radius: 3.75rem;
   background: var(--slider-background-color);
 }
 .tabs input[type="radio"] {
   display: none;
 }
 .tabs label {
-  width: 150px;
-  height: 54px;
+  width: 9.375rem;
+  height: 3.375rem;
   cursor: pointer;
 }
 .tabs label,
@@ -40,9 +40,9 @@ img {
   color: var(--slider-background-color);
 }
 .tabs span {
-  width: 150px;
-  height: 54px;
-  border-radius: 30px;
+  width: 9.375rem;
+  height: 3.375rem;
+  border-radius: 1.875rem;
   background: var(--body-background-color);
   z-index: 1;
 }
@@ -55,16 +55,16 @@ img {
 .tabs input[id="radio-3"]:checked ~ span {
   transform: translateX(200%);
 }
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {
   .tabs {
-    padding: 10px;
+    padding: 0.625rem;
   }
   .tabs label {
-    width: 100px;
-    height: 30px;
+    width: 6.25rem;
+    height: 1.875rem;
   }
   .tabs span {
-    width: 100px;
-    height: 30px;
+    width: 6.25rem;
+    height: 1.875rem;
   }
 }
